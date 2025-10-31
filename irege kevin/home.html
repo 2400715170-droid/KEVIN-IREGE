@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://public-frontend-cos.metadl.com/mgx/img/favicon.png" type="image/png">
+    <title>Delicious Recipes - Recipe Blog</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="homestyle.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Aeinz Recipes</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="top" class="nav-link">Top</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#recipes" class="nav-link">Recipes</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to Aeinz Recipes</h1>
+            <p>Discover amazing recipes from around the world, crafted with love and shared with passion.</p>
+            <a href="#recipes" class="cta-button">Explore Recipes</a>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content" id="recipes">
+        <div class="container">
+            <section class="recipes-section">
+                <h2 class="section-title">Featured Recipes</h2>
+                <div class="recipes-grid">
+                    <!-- Recipe Card 1 -->
+                    <div class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="images/pizza.jpg" alt="Delicious Pizza" loading="lazy">
+                        </div>
+                        <div class="recipe-content">
+                            <h3 class="recipe-title">Homemade Margherita Pizza</h3>
+                            <p class="recipe-description">A classic Italian pizza with fresh tomatoes, mozzarella, and basil. Perfect for a cozy dinner at home.</p>
+                            <div class="recipe-meta">
+                                <span class="cook-time"><i class="fas fa-clock"></i> 30 mins</span>
+                                <span class="difficulty">Easy</span>
+                            </div>
+                            <a href="#" class="read-more-btn">Read More</a>
+                        </div>
+                    </div>
+
+                    <!-- Recipe Card 2 -->
+                    <div class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="images/salads.jpg" alt="Fresh Salad" loading="lazy">
+                        </div>
+                        <div class="recipe-content">
+                            <h3 class="recipe-title">Mediterranean Garden Salad</h3>
+                            <p class="recipe-description">A refreshing mix of crisp vegetables, olives, and feta cheese with a tangy olive oil dressing.</p>
+                            <div class="recipe-meta">
+                                <span class="cook-time"><i class="fas fa-clock"></i> 15 mins</span>
+                                <span class="difficulty">Easy</span>
+                            </div>
+                            <a href="#" class="read-more-btn">Read More</a>
+                        </div>
+                    </div>
+
+                    <!-- Recipe Card 3 -->
+                    <div class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="images/fruited noodles.jpg" alt="Pasta Dish" loading="lazy">
+                        </div>
+                        <div class="recipe-content">
+                            <h3 class="recipe-title">Creamy Mushroom Pasta</h3>
+                            <p class="recipe-description">Rich and creamy pasta with sautéed mushrooms and herbs. A comfort food favorite for any occasion.</p>
+                            <div class="recipe-meta">
+                                <span class="cook-time"><i class="fas fa-clock"></i> 25 mins</span>
+                                <span class="difficulty">Medium</span>
+                            </div>
+                            <a href="#" class="read-more-btn">Read More</a>
+                        </div>
+                    </div>
+
+                    <!-- Recipe Card 4 -->
+                    <div class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="images/chocolate cake.jpg" alt="Chocolate Cake" loading="lazy">
+                        </div>
+                        <div class="recipe-content">
+                            <h3 class="recipe-title">Decadent Chocolate Cake</h3>
+                            <p class="recipe-description">Moist and rich chocolate cake with silky smooth frosting. Perfect for celebrations and special occasions.</p>
+                            <div class="recipe-meta">
+                                <span class="cook-time"><i class="fas fa-clock"></i> 60 mins</span>
+                                <span class="difficulty">Hard</span>
+                            </div>
+                            <a href="#" class="read-more-btn">Read More</a>
+                        </div>
+                    </div>
+
+                    <!-- Recipe Card 5 -->
+                    <div class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="images/pancake berry.jpg" alt="Pancakes" loading="lazy">
+                        </div>
+                        <div class="recipe-content">
+                            <h3 class="recipe-title">Fluffy Blueberry Pancakes</h3>
+                            <p class="recipe-description">Light and fluffy pancakes bursting with fresh blueberries. The perfect weekend breakfast treat.</p>
+                            <div class="recipe-meta">
+                                <span class="cook-time"><i class="fas fa-clock"></i> 20 mins</span>
+                                <span class="difficulty">Easy</span>
+                            </div>
+                            <a href="#" class="read-more-btn">Read More</a>
+                        </div>
+                    </div>
+
+                    <!-- Recipe Card 6 -->
+                    <div class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="images/burger.jpg" alt="Burger" loading="lazy">
+                        </div>
+                        <div class="recipe-content">
+                            <h3 class="recipe-title">Gourmet Beef Burger</h3>
+                            <p class="recipe-description">Juicy beef patty with caramelized onions, crisp lettuce, and our special sauce on a brioche bun.</p>
+                            <div class="recipe-meta">
+                                <span class="cook-time"><i class="fas fa-clock"></i> 35 mins</span>
+                                <span class="difficulty">Medium</span>
+                            </div>
+                            <a href="#" class="read-more-btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Aeinz Recipes</h3>
+                    <p>Sharing culinary adventures and delicious recipes from around the world.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="recipe sample collection.html">Recipes</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="whatsapp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Aeinz Recipes. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html> 
